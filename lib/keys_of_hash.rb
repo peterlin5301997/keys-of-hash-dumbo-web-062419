@@ -5,6 +5,6 @@ class Hash
     if Hash.has_value?(arguments)
       result.push(Hash.index(arguments))
     end
+    return result
   end
-  return result
 end
