@@ -3,7 +3,7 @@ class Hash
     # code goes here
     result = []
     self.each do |animal, location|
-      if self.has_value?(arguments)
+      if arguments.include?(location)
         result.push(animal)
       end
     end
