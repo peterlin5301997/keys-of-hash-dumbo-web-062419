@@ -6,4 +6,5 @@ class Hash
       result.push(Hash.index(arguments))
     end
   end
+  return result
 end
